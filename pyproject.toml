@@ -1,0 +1,14 @@
+[tool.uv]
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+
+[project]
+name = "robotic-arm-algorithm"
+version = "0.1.0"
+description = "Robotic arm kinematics/dynamics algorithm"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "numpy>=2.2.6",
+    "roboticstoolbox-python>=1.5.0",
+]
